@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ParticleSystems>
+  
+  <ParticleDefinition name="SmokeParticle">
+    <!-- For right now, ParticleDefs must use the same spritesheet as stitching is not being done -->
+    <SpriteAnim
+      spriteSheet="Data/Particle/SmokeParticles2.png"
+      spriteSheetSize="6, 5"
+      spriteSheetNumSprites="30"
+      animMode="clamp"
+    />
+    <TextureMaps
+      normalMap="Data/Particle/SmokeParticles2_normal.png"
+    />
+    <!--
+      castsShadows="true"
+      testsDepth="true"
+      writesDepth="true"
+    -->
+    <RenderProperties
+      BlendMode="translucent"
+    />
+  </ParticleDefinition>
+  
+  
+  <ParticleEmitterDefinition 
+    name="Smoke"
+    initialSpawnCount="5~10"
+    spawnRate="0.9"
+    lifeTime="1.5~2.5"
+    initialScale="2.0~2.5"
+    tint="255, 255, 255, 255"
+    startVelocity="(-1.0, 1.0, -1.0)~(1.0, 1.0, 1.0)"
+    velocityStrength="1.0~1.5"
+    acceleration="(0.0, 0.0, 0.0)"
+    shaderType="BlinnPhongParticleLighting"
+    particleDefinition="SmokeParticle"
+  />
+
+  <ParticleSystemDefinition name="LitSmoke">
+    <ParticleEmitter name="Smoke" />
+  </ParticleSystemDefinition>
+</ParticleSystems>
+
+
+<!--
+    <SpriteAnim
+      spriteSheet="Data/Particle/SmokeParticles.png"
+      spriteSheetSize="8, 9"
+      spriteSheetNumSprites="40"
+      animMode="clamp"
+    />
+    <TextureMaps
+      normalMap="Data/Particle/SmokeParticles_normal.png"
+    />
+-->
+
+<!--
+    <SpriteAnim
+      spriteSheet="Data/Textures/Brick.png"
+      spriteSheetSize="8, 9"
+      spriteSheetNumSprites="40"
+      animMode="clamp"
+    />
+    <TextureMaps
+      normalMap="Data/Textures/Brick_Normal.png"
+    />
+-->

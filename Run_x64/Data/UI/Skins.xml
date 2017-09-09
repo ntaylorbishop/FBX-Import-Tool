@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Skins>
+  <Skin name ="BeirusSkin">
+    <!-- ALL WIDGETS -->
+    <AllWidgets
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_normal.png"
+        fontType="Vera" fontSize="0.9" fontColor="255, 255, 255, 255"
+        minWidth="100" minHeight="100" maxWidth="300" maxHeight="300" />
+    <!-- BUTTON -->
+    <Widget type="Button">
+      <Default
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_normal.png"
+        fontType="Vera" fontSize="0.6" fontColor="255, 255, 255, 255"
+        minWidth="100" minHeight="100" maxWidth="300" maxHeight="300">
+      </Default>
+      <Enabled-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_selected.png">
+      </Enabled-Selected>
+      <Disabled
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_normal.png" >
+      </Disabled>
+      <Hover
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_hover.png">
+      </Hover>
+      <Pressed
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_down.png">
+      </Pressed>
+      <Hover-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_hover.png">
+      </Hover-Selected>
+      <Pressed-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/buttonBig_down.png">
+      </Pressed-Selected>
+    </Widget>
+    <!-- RADIO BUTTON -->
+    <Widget type="Radio">
+      <Default
+        backgroundImg="Data/UI/Skins/BeirusSkin/RadioOff.png"
+        fontType="Vera" fontSize="0.7" fontColor="255, 255, 255, 255"
+        width="40" height="40"
+        textAlign="right" padding-left="5"
+        padding="15">
+      </Default>
+      <Enabled-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/RadioOn.png">
+      </Enabled-Selected>
+      <Disabled
+        backgroundImg="Data/UI/Skins/BeirusSkin/RadioOff.png" >
+      </Disabled>
+      <Hover
+        backgroundImg="Data/UI/Skins/BeirusSkin/RadioOff_hover.png"
+        fontColor="255, 128, 0, 255"
+        >
+      </Hover>
+      <Pressed
+        backgroundImg="Data/UI/Skins/BeirusSkin/Radio_down.png"
+        fontColor="255, 222, 0, 255">
+      </Pressed>
+      <Hover-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/RadioOn_hover.png"
+        fontColor="255, 128, 0, 255">
+      </Hover-Selected>
+      <Pressed-Selected
+        backgroundImg="Data/UI/Skins/BeirusSkin/Radio_down.png"
+        fontColor="255, 222, 0, 255">
+      </Pressed-Selected>
+  </Widget>
+  </Skin>
+</Skins>
+
+
+
+<!--
+  If widget has an ID, means its globally visible, referenced in code
+  
+-->

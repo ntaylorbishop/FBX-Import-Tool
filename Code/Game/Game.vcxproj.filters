@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\GameApp">
+      <UniqueIdentifier>{f412ecd8-49be-4e31-babb-775d02feb2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64">
+      <UniqueIdentifier>{71d5d2c5-8077-4313-babe-81928fed88ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\Materials">
+      <UniqueIdentifier>{16490fb8-1f55-448f-867f-da65177a886c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\Particle">
+      <UniqueIdentifier>{c63fb80a-df66-4a6c-9c46-120315050839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\Shaders">
+      <UniqueIdentifier>{9ea56821-6797-466d-897a-85bf694b51ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\UI">
+      <UniqueIdentifier>{02ae6ae7-4d1f-4d4d-8114-08cb4f2a7905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\Textures">
+      <UniqueIdentifier>{40255bd6-3840-4270-9d03-231a361af471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data_x64\ShaderDefinitions">
+      <UniqueIdentifier>{3cb37548-7eeb-4b9e-a9d8-dd90d78c0b11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>Source\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp\TheApp.cpp">
+      <Filter>Source\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp\TheGame.cpp">
+      <Filter>Source\GameApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_x64\Data\Particle\SmokeParticle.xml">
+      <Filter>Data_x64\Particle</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_x64\Data\UI\Skins.xml">
+      <Filter>Data_x64\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_x64\Data\UI\WidgetAnimations.xml">
+      <Filter>Data_x64\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_x64\Data\UI\Widgets.xml">
+      <Filter>Data_x64\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_x64\Data\Particle\SmokeParticle_NoOIT.xml">
+      <Filter>Data_x64\Particle</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_x64\Data\Materials\ShaderDefinitions\BlinnPhong.xml">
+      <Filter>Data_x64\ShaderDefinitions</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_x64\Data\Textures\4639143323_c6bb4a75e3_t.jpg">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Black.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Black_Normal.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Blue.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Brick.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Brick_Normal.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\CompleteTransparent.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\CompleteTransparent_Normal.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\DefaultMaterial.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Glass.jpg">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Marble.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Marble_Normal.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\Pixel.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\SSAO_RandomizedNormals.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\TestTexture.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\WaterDisplacement.png">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\WaterNormal.jpg">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+    <Image Include="..\..\Run_x64\Data\Textures\WaterNormal2.jpg">
+      <Filter>Data_x64\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run_x64\Data\Shaders\SimpleTriangle.hlsl">
+      <Filter>Data_x64\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp\TheApp.hpp">
+      <Filter>Source\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp\TheGame.hpp">
+      <Filter>Source\GameApp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<WidgetAnimations>
+  <AnimatedProperty name="BobUpAndDown" mode="loop">
+    <Keyframe time="0" fontColor="255, 128, 0, 255" />
+    <Keyframe time="2.0" fontColor="255, 255, 255, 0" />
+    <Keyframe time="4.0" fontColor="255, 128, 0, 255" />
+  </AnimatedProperty>
+</WidgetAnimations>

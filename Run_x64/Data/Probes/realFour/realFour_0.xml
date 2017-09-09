@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticReflectionProbe Position="-1.10,13.70,-1.69" BoxMins="-63.98,-14.75,-11.49" BoxMaxs="63.98,14.75,11.49">
+	<Textures>
+		<Texture faceIdx="posX" path="Data/Probes/realFour/realFour_0_posX.png"/>
+		<Texture faceIdx="negX" path="Data/Probes/realFour/realFour_0_negX.png"/>
+		<Texture faceIdx="posY" path="Data/Probes/realFour/realFour_0_posY.png"/>
+		<Texture faceIdx="negY" path="Data/Probes/realFour/realFour_0_negY.png"/>
+		<Texture faceIdx="posZ" path="Data/Probes/realFour/realFour_0_posZ.png"/>
+		<Texture faceIdx="negZ" path="Data/Probes/realFour/realFour_0_negZ.png"/>
+	</Textures>
+</StaticReflectionProbe>

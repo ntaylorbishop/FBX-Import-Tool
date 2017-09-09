@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Materials>
+	<!-- AmbientReflectivity ="1.0, 1.0, 1.0, 0.1" -->
+
+	<Material name="leaf" lightingModel="phong">
+		<ColorProperties
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_thorn_diff.png"
+				NormalMap           ="textures/sponza_thorn_normal.png" 
+		/>
+				<!-- MaskTexture = "textures/sponza_thorn_mask.png" -->
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+				BackFace      ="noCull"
+		/>
+		<!-- translucent -->
+	</Material>
+	
+	<Material name="vase_round" lightingModel="phong">
+		<ColorProperties
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/vase_round.png"
+				NormalMap           ="textures/vase_round_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+				BackFace      ="noCull"
+		/>
+	</Material>
+	
+	<Material name="Material__57" lightingModel="phong">
+		<ColorProperties
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/vase_round.png"
+				NormalMap           ="textures/vase_round_normal.png"
+		/>
+		<!-- MaskTexture         ="textures/vase_plant_mask.png" -->
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+		<!-- translucent -->
+	</Material>
+	
+	<Material name="Material__298" lightingModel="phong">
+		<ColorProperties
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/background.png"
+				NormalMap           ="textures/background_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="16___Default" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/gi_flag.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="bricks" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/spnza_bricks_a_diff.png"
+				NormalMap           ="textures/spnza_bricks_a_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="arch" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_arch_diff.png"
+				NormalMap           ="textures/sponza_arch_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="ceiling" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_ceiling_a_diff.png"
+				NormalMap           ="textures/sponza_ceiling_a_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="column_a" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_column_a_diff.png"
+				NormalMap           ="textures/sponza_column_a_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="floor" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_floor_a_diff.png"
+				NormalMap           ="textures/sponza_floor_a_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="column_c" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_column_c_diff.png"
+				NormalMap           ="textures/sponza_column_c_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="details" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_details_diff.png"
+				NormalMap           ="textures/sponza_details_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="column_b" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_column_b_diff.png"
+				NormalMap           ="textures/sponza_column_b_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="Material__47" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="flagpole" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_flagpole_diff.png"
+				NormalMap           ="textures/sponza_flagpole_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_e" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_fabric_green_diff.png"
+				NormalMap           ="textures/sponza_fabric_green_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_d" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_fabric_blue_diff.png"
+				NormalMap           ="textures/sponza_fabric_blue_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_a" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_fabric_diff.png"
+				NormalMap           ="textures/sponza_fabric_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_g" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_curtain_blue_diff.png"
+				NormalMap           ="textures/sponza_curtain_blue_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_c" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_curtain_diff.png"
+				NormalMap           ="textures/sponza_curtain_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="fabric_f" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_curtain_green_diff.png"
+				NormalMap           ="textures/sponza_curtain_green_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="chain" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/chain_texture.png"
+				NormalMap           ="textures/chain_texture_normal.png"
+		/>
+		<!-- MaskTexture         ="textures/chain_texture_mask.png" -->
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="vase_hanging" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/vase_hanging.png"
+				NormalMap           ="textures/vase_hanging_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="vase" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/vase_dif.png"
+				NormalMap           ="textures/vase_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="Material__25" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/lion.png"
+				NormalMap           ="textures/lion_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="roof" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/sponza_roof_diff.png"
+				NormalMap           ="textures/sponza_roof_normal.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+
+	<Material name="banner" lightingModel="phong">
+		<ColorProperties
+
+				SpecularColor       ="0.5880, 0.5880, 0.5880, 1.0"
+				SpecularExponent    ="10.0"
+				DiffuseTexture      ="textures/gi_flag.png"
+		/>
+		<StateProperties
+				DepthTest     ="true"
+				BlendMode     ="opaque"
+		/>
+	</Material>
+</Materials>

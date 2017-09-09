@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UIWidgets>
+  <!--<WidgetGroup name="DebugView" absolutePosition="1250, 830" 
+               radioGrouping="topToBottom" radioTextAlign="right"
+               fontSize="0.3" fontColor="255, 255, 255, 255">
+    <Hover
+      onHoverAnim="fontColor">
+    </Hover>
+    <UIWidget type="Radio" name="DebugView" skin="BeirusSkin" text="Light Culling Heatmap" onClick="ShowHeatmapDisplay" />
+    <UIWidget type="Radio" name="DebugView" skin="BeirusSkin" text="SSAO"                  onClick="ShowRegularDisplay" />
+    <UIWidget type="Radio" name="DebugView" skin="BeirusSkin" text="No SSAO"               onClick="ShowDepthVisualizationDisplay" />
+  </WidgetGroup>
+  -->
+</UIWidgets>

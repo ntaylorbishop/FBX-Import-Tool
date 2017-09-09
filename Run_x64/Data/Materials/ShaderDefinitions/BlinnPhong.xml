@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Shader>
+  <VertexShader>
+    <DefaultConstantBuffers>
+      <ConstantBuffer name="ModelViewProjection"    bindPoint="0" />
+    </DefaultConstantBuffers>
+  </VertexShader>
+  <FragmentShader>
+    <DefaultConstantBuffers>
+      <ConstantBuffer name="ModelViewProjection"     bindPoint="0" />
+    </DefaultConstantBuffers>
+    <ConstantBuffer name="Light">
+      <Uniform name="color"             type="rgba"     default="white" />
+      <Uniform name="minLightDistance"  type="float"    default="0.f" />
+      <Uniform name="maxLightDistance"  type="float"    default="0.f" />
+      <Uniform name="powerAtMin"        type="float"    default="0.f" />
+      <Uniform name="powerAtMax"        type="float"    default="0.f" />
+      <Uniform name="position"          type="vec3"     default="(0.0, 0.0, 0.0)" />
+      <Uniform name="CameraPos"         type="vec3"     default="(0.0, 0.0, 0.0)" />
+    </ConstantBuffer>
+    <ShaderResourceView   texturePath="Data/Textures/Brick.png"           bindPoint="0"   default="null" />
+    <ShaderResourceView   texturePath="Data/Textures/Brick_normal.png"    bindPoint="1"   default="null" />
+    <Sampler  type="linear" />
+  </FragmentShader>
+</Shader>
